@@ -1,0 +1,90 @@
+html, body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  /*min-height: 100vh;*/
+
+}
+
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-left-red {
+  background: red;
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  margin: 25px auto;
+}
+
+.top-middle-blue {
+  background: blue;
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  margin: 25px auto;
+
+}
+
+.top-right-gray {
+  background: gray;
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  margin: 25px auto;
+}
+
+.first-paragraph {
+  padding: 20px;
+
+}
+
+.second-paragraph {
+  padding: 20px;
+}
+
+
+/*this is the second to last section of page*/
+.con-bigger {
+  background: blue;
+  width: 97%;
+  height: 350px;
+  margin: 20px auto;
+}
+
+.red-left {
+  background: red;
+  width: 33%;
+  height: 350px;
+}
+
+/*bottom part starting below*/
+
+.bottom-section {
+  background: blue;
+  width: 97%;
+  height: 150px;
+  margin: 35px auto;
+}
+
+.red-box-right {
+  background: red;
+  width: 30%;
+  height: 150px;
+  float: right;
+}
+
+.box-in-red-gray {
+  background: gray;
+  width: 80%;
+  height: 150px;
+  margin: auto;
+}
+/*good job!*/
